@@ -8,5 +8,6 @@ publics class Test{
 	System.out.println("哈哈哈234");
 	System.out.println("我想操逼");
 	System.out.println("你好牛逼哈哈哈");
+	System.out.println("你好不会被试试");
  }
 }
