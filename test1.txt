@@ -4,5 +4,6 @@ publics class Test{
 	System.out.println("你好棒");
 	System.out.println("我是zhangsna");
 	System.out.println("我是kfk");
+	System.out.println("你好牛逼哈哈哈");
  }
 }
