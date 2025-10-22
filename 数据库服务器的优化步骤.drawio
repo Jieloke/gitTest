@@ -1,9 +1,158 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.7">
   <diagram name="第 1 页" id="MKGLXpFfksrZjkySklAL">
-    <mxGraphModel>
+    <mxGraphModel dx="719" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-1" value="观察服务器状态" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="290" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-2" value="是否存在周期波动" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="410" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2220" y="470" as="sourcePoint" />
+            <mxPoint x="2160" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-4" value="加缓存更改缓存失效策略" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-5" value="是" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2330" y="470" as="sourcePoint" />
+            <mxPoint x="2330" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-7" value="否" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-8" value="是否解决" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="610" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2140" y="650" as="sourcePoint" />
+            <mxPoint x="2320" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-10" value="否" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-11" value="仍有不规则延迟或者卡顿" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="640" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2389.41" y="780" as="sourcePoint" />
+            <mxPoint x="2389" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-14" value="开启慢查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="850" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2389.41" y="910" as="sourcePoint" />
+            <mxPoint x="2389.41" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-19" value="explain 或者 show profiling" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2315" y="990" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-20" value="查看慢查询记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2315" y="1070" as="sourcePoint" />
+            <mxPoint x="2315" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-22" value="sql等待时长" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p5i3o2ZFbKW3nbzL6FIw-21">
+          <mxGeometry x="-0.1912" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2475" y="1070" as="sourcePoint" />
+            <mxPoint x="2475" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-24" value="sql执行时长" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p5i3o2ZFbKW3nbzL6FIw-23">
+          <mxGeometry x="-0.2026" y="-5" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-26" value="1、索引设计优化&lt;div&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;2、join表过多,需要优化&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3、数据表设计优化&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="1160" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2509.66" y="1260" as="sourcePoint" />
+            <mxPoint x="2509.66" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-28" value="是否解决" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="1320" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2510" y="1380" as="sourcePoint" />
+            <mxPoint x="2510" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-31" value="未解决" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2480" y="1380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-32" value="调优服务器参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2315" y="1220" as="sourcePoint" />
+            <mxPoint x="2315" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-34" value="是否解决" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="1270" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-35" value="sql查询是否达到瓶颈" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="1430" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2440" y="1459.66" as="sourcePoint" />
+            <mxPoint x="2310" y="1459.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-38" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p5i3o2ZFbKW3nbzL6FIw-36">
+          <mxGeometry x="-0.678" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-37" value="重新检查以上内容" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="1430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2509.66" y="1490" as="sourcePoint" />
+            <mxPoint x="2509.66" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-40" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p5i3o2ZFbKW3nbzL6FIw-39">
+          <mxGeometry x="-0.5609" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5i3o2ZFbKW3nbzL6FIw-41" value="1、读写分离（主从架构）&lt;div&gt;2、分库分表(垂直分库、垂直分表、水平分表)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2365" y="1520" width="290" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
